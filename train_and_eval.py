@@ -2,7 +2,7 @@ import torch
 from torch import nn
 import train_utils.distributed_utils as utils
 from train_utils.dice_coefficient_loss import dice_loss, build_target
-from PreSFNetV1 import LGD
+from PreSFNet import LGD
 
 
 def FeatureLoss(F1, F2):
